@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Contact Details</title>
+  </head>
+  <body>
+    <div>
+      <dl>
+        <dt><h2>My Contact Details</h2></dt>
+        <ul>
+          <li>
+            <dt><em>Gmail - </em><a href="#">zaryab.m.shaikh@gmail.com</a></dt>
+          </li>
+          <li>
+            <dt>
+              <em>Github - </em
+              ><a href="https://github.com/zaryab-m-shaikh"
+                >https://github.com/zaryab-m-shaikh</a
+              >
+            </dt>
+          </li>
+          <li>
+            <dt>
+              <em>LinkedIn - </em
+              ><a href="https://www.linkedin.com/in/zaryab-shaikh"
+                >http://www.linkedin.com/in/zaryab-shaikh</a
+              >
+            </dt>
+          </li>
+          <li>
+            <dt><em>Phone - </em>+919xxxxxxxxx</dt>
+          </li>
+          <li>
+            <dt>
+              <em>Resume - </em
+              ><a href="pdfs/Zaryab-Shaikh-Resume.pdf">Zaryab Shaikh</a>
+            </dt>
+          </li>
+        </ul>
+      </dl>
+    </div>
+    <hr />
+    <div>
+      <form
+        action="mailto:zaryab261997@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <label for="name">Name: </label>
+        <input type="text" value="" name="yourName" required /><br />
+        <label for="email">Email: </label>
+        <input type="email" name="yourEmail" required /><br />
+        <label for="password">Password: </label>
+        <input type="password" required /><br />
+        <label for="gender">Gender: </label><br />
+        <label for="gender" required>Male </label>
+        <input type="radio" value="male" name="gender" />
+        <label for="gender">Female </label>
+        <input type="radio" value="female" name="gender" /><br />
+        <label for="checkbox" required>Are you physically abled</label><br />
+        <label for="checkbox">Yes</label>
+        <input type="checkbox" value="Yes" />
+        <label for="checkbox">No</label>
+        <input type="checkbox" value="No" /><br />
+        <label for="age">Your Age: </label><br />
+        <input type="date" required /><br />
+        <label for="salary">Expected CTC: </label><br />
+        <input type="range" min="2" max="16" value="4" required /><br />
+        <label for="upload">Upload Document: </label><br />
+        <input type="file" required /><br />
+        <label for="about">About Yourself: </label><br />
+        <textarea name="about" id="" cols="30" rows="10"></textarea><br />
+        <input type="submit" />
+        <input type="reset" />
+      </form>
+    </div>
+  </body>
+</html>
